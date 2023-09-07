@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  font-size: 62.5%;
+  background-color: var(--BiroGeek);
+}
+
+:root{
+  --BiroGeek: #dee2e6;
+}
+
+.page_header{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.page_header_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.page_header_button{
+  display: flex;
+  margin-bottom: 1.25rem;
+}
+
+.page_header_image{
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+
+.page__content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin: 10rem;
+}
+
+.page__content-news{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.page__content-text{
+  font-size: 5%;
+}
